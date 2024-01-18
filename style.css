@@ -38,7 +38,17 @@ header {
   flex-direction: column;
 }
 
-.container > * {
+.container > *,
+.hero > * {
   flex: 1 1 100%;
+}
+
+.hero {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.hero > img {
+  background-color: lightgrey;
 }
 
