@@ -95,15 +95,25 @@ section {
   flex-basis: 100%;
 }
 
-section > *,
-.hero > * {
+section > * {
   flex: 1 1 100%;
 }
 
-.hero > * {
+.hero {
   display: flex;
-  flex-basis: 100%;
+  justify-content: center;
+  flex: 1 0 initial;
   padding: 10px 0;
+}
+
+main,
+.quotes {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 initial;
+}
+
+.hero > .container {
 }
 
 .hero img {
