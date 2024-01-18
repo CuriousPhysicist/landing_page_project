@@ -1,6 +1,10 @@
 body {
   margin: 0;
+  height: 100vh;
   font-family: Ariel, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
