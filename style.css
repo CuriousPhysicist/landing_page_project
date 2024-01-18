@@ -32,15 +32,16 @@ header,
 footer,
 .hero {
   background-color: var(--dark-blue);
-  color: white;
+  color: var(--hero-main-text);
 }
 
 .action-area {
   background-color: var(--light-blue);
 }
- .quotes {
-   background-color: var(--light-grey);
- }
+
+.quotes {
+  background-color: var(--light-grey);
+}
 
 header a {
   color: white;
