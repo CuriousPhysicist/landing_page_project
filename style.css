@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Catamaran', 'Ariel', sans-serif;
+  font-family: 'Ariel', sans-serif; /* 'Catamaran', */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
