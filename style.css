@@ -55,6 +55,17 @@ header a,
   font-weight: bold;
 }
 
+button {
+  color: var(--hero-secondary-text);
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
 .links {
   display: flex;
   gap: 20px;
@@ -81,6 +92,7 @@ section > *,
 .hero {
   display: flex;
   flex-basis: 100%;
+  padding: 10px 0;
 }
 
 .hero > img {
