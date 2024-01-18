@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
 :root {
   --dark-blue: #1F2937;
   --light-blue: #3882F6;
@@ -11,7 +13,7 @@
 }
 
 body {
-  font-family: Ariel, sans-serif;
+  font-family: 'Catamaran', 'Ariel', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,7 +62,6 @@ button {
   background-color: var(--light-blue);
   border-color: var(--light-blue);
   font-size: 18px;
-  font-weight: bold;
   border: none;
   border-radius: 5px;
   padding: 5px 20px;
@@ -99,6 +100,7 @@ section > *,
   background-color: grey;
 }
 
-.hero h1 {
+.hero-content > h1 {
   font-size: 48px;
+  font-weight: bold;
 }
