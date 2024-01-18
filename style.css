@@ -10,18 +10,18 @@
   --quote-text: #1F2937;
 }
 
-body,
-h1,
-h2 {
-  margin: 0;
-}
-
 body {
-  height: 100vh;
   font-family: Ariel, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
 }
 
 a {
@@ -33,6 +33,11 @@ footer,
 .hero {
   background-color: var(--dark-blue);
   color: var(--hero-main-text);
+}
+
+header a {
+  color: var(--hero-secondary-text);
+  font-size: 18px;
 }
 
 .action-area {
@@ -55,11 +60,6 @@ footer,
   align-items: center;
 }
 
-header a {
-  color: var(--hero-secondary-text);
-  font-size: 18px;
-}
-
 header > .container {
   display: flex;
   justify-content: space-between;
@@ -67,9 +67,9 @@ header > .container {
 }
 
 section {
-  flex-basis: 100%;
   display: flex;
   flex-direction: column;
+  flex-basis: 100%;
 }
 
 section > *,
