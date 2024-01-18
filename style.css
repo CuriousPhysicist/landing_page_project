@@ -35,7 +35,8 @@ footer,
   color: var(--hero-main-text);
 }
 
-header a {
+header a,
+.hero-subtext {
   color: var(--hero-secondary-text);
   font-size: 18px;
 }
@@ -84,4 +85,8 @@ section > *,
 
 .hero > img {
   background-color: grey;
+}
+
+.hero h1 {
+  font-size: 48px;
 }
