@@ -26,3 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.container {
+  flex-basis: 100%;
+}
