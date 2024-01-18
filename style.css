@@ -100,13 +100,13 @@ section > *,
   flex: 1 1 100%;
 }
 
-.hero {
+.hero > * {
   display: flex;
   flex-basis: 100%;
   padding: 10px 0;
 }
 
-.hero > img {
+.hero img {
   background-color: grey;
 }
 
