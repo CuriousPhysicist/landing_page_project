@@ -73,6 +73,16 @@ button {
   align-items: center;
 }
 
+.container {
+  min-width: 900px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 initial;
+}
+
 header > .container {
   display: flex;
   justify-content: space-between;
