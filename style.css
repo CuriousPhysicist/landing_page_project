@@ -17,3 +17,8 @@ footer,
 header a {
   color: white;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
