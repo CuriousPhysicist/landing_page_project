@@ -73,20 +73,39 @@ button {
   align-items: center;
 }
 
-.container {
-  min-width: 900px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  flex: 1 0 initial;
-}
-
 header > .container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero > .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+
+main > .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+
+.quotes > .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+
+.call-to-action > .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
 }
 
 section {
@@ -100,10 +119,7 @@ section > * {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
-  flex: 1 0 initial;
-  padding: 10px 0;
+  padding: 20px;
 }
 
 main,
@@ -113,9 +129,6 @@ main,
   flex: 1 0 initial;
 }
 
-.hero > .container {
-}
-
 .hero img {
   background-color: grey;
 }
@@ -123,4 +136,13 @@ main,
 .hero-content > h1 {
   font-size: 48px;
   font-weight: bold;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+}
+
+footer > * {
+  margin: auto;
 }
