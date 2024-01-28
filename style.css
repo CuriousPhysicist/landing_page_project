@@ -100,7 +100,7 @@ main > .container {
 
 .quotes > .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   max-width: 900px;
   margin: auto;
 }
