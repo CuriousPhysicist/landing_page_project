@@ -180,6 +180,13 @@ main img {
   text-align: center;
 }
 
+.quote {
+  color: var(--quote-text);
+  font-size: 36px;
+  font-weight: 300;
+  text-align: justify;
+}
+
 footer {
   padding: 10px;
   display: flex;
