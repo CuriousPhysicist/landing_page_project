@@ -187,6 +187,11 @@ main img {
   text-align: justify;
 }
 
+.customer-name {
+  font-weight: bold;
+  text-align: end;
+}
+
 footer {
   padding: 10px;
   display: flex;
