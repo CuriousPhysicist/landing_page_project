@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   --dark-blue: #1F2937;
@@ -13,7 +14,7 @@
 }
 
 body {
-  font-family: 'Ariel', sans-serif; /* 'Catamaran', */
+  font-family: 'Roboto', 'Catamaran', 'Ariel', sans-serif; /* 'Catamaran', */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -102,7 +103,7 @@ main > .container {
   display: flex;
   flex-direction: column;
   max-width: 900px;
-  margin: auto;
+  margin: 80px auto;
 }
 
 main,
@@ -183,13 +184,18 @@ main img {
 .quote {
   color: var(--quote-text);
   font-size: 36px;
-  font-weight: 300;
+  font-style: italic;
+  font-weight: lighter;
   text-align: justify;
+  padding: 0 40px;
+  margin: 0;
 }
 
 .customer-name {
   font-weight: bold;
   text-align: end;
+  padding: 0 40px;
+  margin: 0;
 }
 
 footer {
