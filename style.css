@@ -115,9 +115,9 @@ main,
 
 .call-to-action > .container {
   display: flex;
-  justify-content: space-between;
   max-width: 900px;
-  margin: auto;
+  margin: 60px auto;
+  align-items: center;
 }
 
 section {
@@ -195,6 +195,25 @@ main img {
   font-weight: bold;
   text-align: end;
   padding: 0 40px;
+  margin: 0;
+}
+
+.action-area {
+  color: var(--hero-secondary-text);
+  border-radius: 10px;
+  display: flex;
+  padding: 40px 60px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-area button {
+  box-shadow: 0 0 0 3px var(--hero-secondary-text);
+}
+
+.action-area h3,
+.action-area p {
   margin: 0;
 }
 
